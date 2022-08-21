@@ -7,8 +7,16 @@ Console.WriteLine("Введите два числа: ");
 int a = Convert.ToInt32(Console.ReadLine());
 int b = Convert.ToInt32(Console.ReadLine());
 
-double aPowB = Math.Pow(a, b);
+double aPowB(a, b)
+{
+    int pow = a;
+    for(int i = 1; i < b; i++)
+    {
+        int pow = pow * a;
+        
+    return(pow);
+}
 
 // В задании написано: "и возводит в степень". А выводить не нужно? :)
 
-Console.WriteLine(aPowB);
+Console.WriteLine(aPowB(a, b));

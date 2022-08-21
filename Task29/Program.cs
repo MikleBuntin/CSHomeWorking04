@@ -19,10 +19,8 @@ void FloodArray(int[] array)
 {
     int i = 0;
     while(i < array.Length)
-    //for(int i = 0; i < arrLength; i++)
     {
         array[i] = new Random().Next(0, 100);
-        //Console.WriteLine(array[i]);
         i++;
     }
 }
